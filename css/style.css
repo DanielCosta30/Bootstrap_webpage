@@ -14,3 +14,18 @@ p, li {
 color: #444;
 font-size: 14px;
 }
+
+/* Barra de Navegação*/
+
+header, .navbar {
+    background-color: #353D41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
