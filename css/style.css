@@ -29,3 +29,20 @@ header, .navbar {
 #logo {
     width: 75px;
 }
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#navbar-links a {
+    color: #fff;
+
+}
+.navbar-expand-lg .navbar-nav .navbar-link {
+    padding: 1rem .8rem;
+}
