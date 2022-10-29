@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <!-- Bootstrap-->
     <link
       rel="stylesheet"
@@ -28,10 +31,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/bf7e05c402.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/b00128f7f0.js" crossorigin="anonymous"></script>
     <!-- Progress Bar -->
     <script src="js/progressbar.min.js"></script>
     <!-- Parallax -->
@@ -41,12 +41,33 @@
     <title>hDC Agengy - a sua agencia web</title>
   </head>
   <body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+            <a href="#" class="navbar-brand">
+                <img id="logo" src="img/hdcagency_logo.svg" alt="hDC Agengy"> hDC Agengy
+            </a>
 
+            <!-- Menu Hamburger para mobile / class e atributos do bootstrap-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+            aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigations">
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-    
-    <h1>Teste</h1>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+            <div class="navbar-nav">
+                <a href="nav-item nav-link" id="home-menu">Home</a>
+                <a href="nav-item nav-link" id="about-menu">About</a>
+                <a href="nav-item nav-link" id="services-menu">Serviços</a>
+                <a href="nav-item nav-link" id="team-menu">Time</a>
+                <a href="nav-item nav-link" id="portfolio-menu">Projetos</a>
+                <a href="nav-item nav-link" id="contact-menu">Contato</a>
 
-
+            </div>
+            </div>
+            </nav>
+        </div>
+    </header>
 
 
 
