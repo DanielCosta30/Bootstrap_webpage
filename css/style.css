@@ -91,3 +91,8 @@ header, .navbar {
     background-color: transparent;
     border-color: #65DAF9;
 }
+
+.carousel-indicators .active {
+    background-color: #65DAF9;
+
+}
