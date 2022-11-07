@@ -113,4 +113,18 @@ $(document).ready(function () {
 
     // Filtro do portfólio
 
+    $('.filter-btn').on('click', function(){
+
+      var type = $(this).attr('id');
+      var boxes = $('.project-box');
+
+      $('.main-btn').removeClass('active');
+      $(this).addClass('active');
+
+      // Filtro do portfólio --> Detectar qual id foi clicado
+
+      
+
+    });
+
 });
