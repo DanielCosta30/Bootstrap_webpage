@@ -319,3 +319,41 @@ transition: .5s;
 background-color: #FFF;
 color: #65DAF9;
 }
+
+/* Call to action */
+
+#call-area {
+background-color: #65DAF9;
+text-transform: uppercase;
+}
+
+#call-area .container {
+padding: 30px 100px;
+}
+
+#call-area .row {
+display: block;
+text-align: center;
+}
+
+#call-area p {
+color: #FFF;
+font-weight: bold;
+margin-left: 30px;
+font-size: 20px;
+width: auto;
+letter-spacing: 2px;
+margin-bottom: 0;
+display: inline;
+height: 60px;
+line-height: 60px;
+}
+
+#call-area #call-btn {
+background-color: #FFF;
+color: #65DAF9;
+font-weight: bold;
+margin-left: 30px;
+width: auto;
+letter-spacing: 2px;
+}
