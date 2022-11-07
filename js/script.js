@@ -123,8 +123,34 @@ $(document).ready(function () {
 
       // Filtro do portfólio --> Detectar qual id foi clicado
 
-      
+      if(type == 'dsg-btn'){
+        eachBoxes('dsg', boxes)       
+      }else if(type == 'dev-btn') {
+        eachBoxes('dev', boxes)
+      }else if (type == 'seo-btn') {
+        eachBoxes('seo', boxes)
+      }else {
+        eachBoxes('all', boxes);
+      }
+       
 
     });
+
+    function eachBoxes(type, boxes) {
+      if(type == 'all'){
+        $(boxes).fadeIn();
+      }else {
+        $(boxes).each(function (){
+          if(!$(this).hasClass(type)){  
+            $(this).fadeOut('slow');        
+          }else {
+            $(this).fadeIn();
+          }
+        })
+      }
+
+    }
+
+
 
 });
