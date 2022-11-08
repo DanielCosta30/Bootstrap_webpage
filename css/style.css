@@ -388,3 +388,22 @@ font-size: 16px;
 font-weight: bold;
 color: #3EC1D5;
 }
+
+/* Footer -Formulário*/
+
+#msg-box p {
+font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+margin-bottom: 15px;
+border-radius: 0;
+}
+
+#contact-form .main-btn {
+width: 120px;
+height: 50px;
+}
+#contact-form .main-btn:hover{
+color: #3EC1D5;
+}
